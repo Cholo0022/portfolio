@@ -4,9 +4,157 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+
     <title>Portfolio</title>
   </head>
   <body>
-    <h1>Portfolio Andres Bozzani</h1>
+    <div class="container-fluid">
+      <thead>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Andres Bozzani</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </thead>
+      <tbody>
+        <div class="contenedorInicio row">
+          <div class="mensaje col-6">
+            <h3>
+              !Hola, soy Andres! Un programador web apasionado por la
+              tecnología.
+            </h3>
+          </div>
+          <div class="imagenProgramador col-6">
+            <img
+              src="https://tuataras.net/wp-content/uploads/Persona-programando.png"
+              alt="Persona Programando"
+            />
+          </div>
+        </div>
+        <div class="row sobreMi">
+          <h2>Sobre Mí</h2>
+          <div class="col tecnologias">
+            <h3>Tecnologías</h3>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>BootStrap</li>
+              <li>jQuery</li>
+              <li>Git</li>
+            </ol>
+          </div>
+          <div class="col imgTencologias">
+            <div>
+              <img
+                width="100px"
+                src="https://e7.pngegg.com/pngimages/709/990/png-clipart-responsive-web-design-web-development-html-computer-icons-scalable-graphics-s-free-icon-html5-miscellaneous-web-design.png"
+                alt="Logo de HTML"
+              />
+            </div>
+            <div>
+              <img
+                width="100px"
+                src="https://e7.pngegg.com/pngimages/239/228/png-clipart-html-css3-cascading-style-sheets-logo-markup-language-digital-agency-miscellaneous-blue.png"
+                alt="Logo de CSS"
+              />
+            </div>
+            <div>
+              <img
+                width="100px"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                alt="Logo Javascript"
+              />
+            </div>
+            <div>
+              <img
+                width="100px"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+                alt="Logo Bootstrap"
+              />
+            </div>
+            <div>
+              <img
+                width="100px"
+                src="https://www.joykal.com/wp-content/uploads/2019/09/jquery.png"
+                alt="Logo jQuery"
+              />
+            </div>
+            <img
+              width="100px"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png"
+              alt="Logo Git"
+            />
+          </div>
+          <div class="col hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>River Plate</li>
+              <li>Escuchar Musica</li>
+              <li>Fútbol</li>
+              <li>Leer</li>
+            </ul>
+          </div>
+          <div class="col imgHobbies">
+            <img
+              width="150px"
+              src="https://i.pinimg.com/736x/7c/2d/a2/7c2da2c280ab3b1b064b06f986ad1e57.jpg"
+              alt="River Plate"
+            />
+          </div>
+        </div>
+      </tbody>
+    </div>
+    <tfoot>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">GitHub</div>
+          <div class="col">linkedin</div>
+          <div class="col">Mail</div>
+        </div>
+      </div>
+    </tfoot>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
