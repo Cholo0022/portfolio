@@ -3,14 +3,15 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color:background: #757F9A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+}
+
+.contenedorInicio {
+  background-color: #307CD0;
 }
 
 .imagenProgramador img{
   width: 500px;
+  margin: 80px;
 }
 
 .mensaje h3 {
@@ -18,3 +19,20 @@ body {
   margin-top: 150px;
 }
 
+.imgTencologias img {
+  width: 100px;
+  margin: 10px;
+}
+
+.imgHobbies img {
+  width: 100px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link img {
+  width: 70px;
+  margin: 5px;
+}
