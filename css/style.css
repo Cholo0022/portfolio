@@ -6,10 +6,10 @@ body {
 }
 
 .contenedorInicio {
-  background-color: #307CD0;
+  background-color: #307cd0;
 }
 
-.imagenProgramador img{
+.imagenProgramador img {
   width: 500px;
   margin: 80px;
 }
@@ -17,21 +17,30 @@ body {
 .mensaje h3 {
   text-align: center;
   margin-top: 150px;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .imgTencologias img {
-  width: 100px;
+  width: 80px;
   margin: 10px;
+  width: 250px;
 }
 
 .imgHobbies img {
-  width: 100px;
+  margin-top: 80px;
+  margin: 10px;
+  width: 250px;
+}
+
+#linkInicio,
+#linkSobreMi,
+#linkContacto,
+#contacto a {
+  cursor: pointer;
 }
 
 /* Footer */
-
 #footer {
- /* border-radius: 20px;*/
   padding: 1rem 0 2rem 0;
   background: #000;
   text-align: center;
@@ -42,7 +51,7 @@ body {
 }
 
 #footer a:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 #footer .copyright {
