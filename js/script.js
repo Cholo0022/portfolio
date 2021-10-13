@@ -20,7 +20,9 @@ linkContacto.addEventListener("click", function () {
 });
 
 function clickLinkedin() {
-  window.open("https://www.linkedin.com/in/andres-bozzani-63b43754/");
+  window.open(
+    "https://www.linkedin.com/in/andres-bozzani-63b43754?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bab5TbXrRR9SAXQCL%2F8iWZg%3D%3D"
+  );
 }
 
 function clickGitHub() {
@@ -29,8 +31,4 @@ function clickGitHub() {
 
 function clickInstagram() {
   window.open("https://www.instagram.com/cholo0022/");
-}
-
-function clickGmail() {
-  window.open("mailto:andres.bozzani@gmail.com");
 }

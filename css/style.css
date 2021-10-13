@@ -1,6 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .contenedorInicio {
@@ -22,8 +24,7 @@ body {
 .fondoSobreMi {
   background-color: #3f4238;
 }
-git 
-.imgTencologias img {
+git .imgTencologias img {
   margin: 10px;
   width: 400px;
 }
@@ -34,7 +35,10 @@ git
   width: 400px;
 }
 
-h3, h2, ol, ul {
+h3,
+h2,
+ol,
+ul {
   color: white;
 }
 
@@ -60,11 +64,11 @@ h3, h2, ol, ul {
   color: #fff;
 }
 
-#footer .copyright {
-  color: #bbb;
-  font-size: 0.9rem;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+#footer img {
+  width: 30px;
+  height: 30px;
 }
 
+.footer {
+  cursor: pointer;
+}
