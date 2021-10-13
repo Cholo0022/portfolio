@@ -1,8 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
 .contenedorInicio {
@@ -18,18 +16,26 @@ body {
   text-align: center;
   margin-top: 150px;
   font-family: "Montserrat Alternates", sans-serif;
+  color: #000;
 }
 
+.fondoSobreMi {
+  background-color: #3f4238;
+}
+git 
 .imgTencologias img {
-  width: 80px;
   margin: 10px;
-  width: 250px;
+  width: 400px;
 }
 
 .imgHobbies img {
   margin-top: 80px;
   margin: 10px;
-  width: 250px;
+  width: 400px;
+}
+
+h3, h2, ol, ul {
+  color: white;
 }
 
 #linkInicio,
@@ -62,8 +68,3 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 736px) {
-  #footer {
-    padding: 0 0 0 0;
-  }
-}
