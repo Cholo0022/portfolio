@@ -1,5 +1,5 @@
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
@@ -7,6 +7,7 @@ body {
 
 .contenedorInicio {
   background-color: #307cd0;
+  width: 100%;
 }
 
 .imagenProgramador img {
@@ -26,6 +27,8 @@ body {
 .fondoSobreMi {
   background-color: #3f4238;
   padding-bottom: 100px;
+  width: 100%;
+  margin: 0;
 }
 .imgTencologias img {
   margin: 10px;
@@ -54,7 +57,7 @@ ul {
 
 /* Footer */
 #footer {
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 0;
   background: #000;
   text-align: center;
 }
