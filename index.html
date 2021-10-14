@@ -69,7 +69,7 @@
     <section id="sobreMi" class="fondoSobreMi">
       <div class="row m-auto">
         <h2 class="text-center pt-3 mt-5 mb-5">Sobre mí</h2>
-        <div class="col">
+        <div class="col-sm-6 col-lg-2">
           <h3 class="text-center m-0">Tecnologías</h3>
           <ol>
             <li>HTML</li>
@@ -80,25 +80,25 @@
             <li>Git</li>
           </ol>
         </div>
-        <div class="col imgTencologias">
+        <div class="col-sm-6 col-lg-4 imgTencologias mt-5">
           <img
             class="m-0"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-JXEDy9xcs8UJUfCTCKEo2rDA6ByHmXXrw&usqp=CAU"
             alt="Tecnologias Front - End"
           />
         </div>
-        <div class="col m-0">
+        <div class="col-sm-6 col-lg-2 m-0">
           <h3 class="text-center">Mis Hobbies</h3>
           <ul>
             <li>Fútbol</li>
             <li>Escuchar Musica</li>
-            <li>Leer</li>
+            <li>Pesca</li>
           </ul>
         </div>
-        <div class="col imgHobbies">
+        <div class="col-sm-6 col-lg-4 imgHobbies mt-5">
           <img
             class="m-0"
-            src="https://http2.mlstatic.com/D_NQ_NP_994080-MLA46294018217_062021-V.jpg"
+            src="https://i.pinimg.com/originals/e3/9b/15/e39b153c6f54b4861edf97abe3a415e7.jpg"
             alt="River Plate"
           />
         </div>
@@ -106,34 +106,39 @@
     </section>
     <section id="contacto">
       <footer id="footer">
-        <div class="d-flex justify-content-around">
-          <div class="footer">
-            <a onclick="clickLinkedin()"
-              ><img
-                src="https://thumbs.dreamstime.com/b/logotipo-negro-y-blanco-redondeado-de-linkedin-con-el-fichero-del-ai-vector-f-cilmente-editable-tenga-fondo-alta-resoluci-n-155658604.jpg"
-                alt="Linkedin"
-              /><br />
-              <span class="label">Linkedin</span></a
-            >
-          </div>
-          <div class="footer">
-            <a onclick="clickGitHub()"
-              ><img
-                src="https://w7.pngwing.com/pngs/764/179/png-transparent-github-computer-icons-github-white-logo-silhouette.png"
-                alt="GitHub"
-              /><br />
-              <span class="label">GitHub</span></a
-            >
-          </div>
-          <div class="footer">
-            <a onclick="clickInstagram()"
-              ><img
-                src="https://ih1.redbubble.net/image.232042714.7145/flat,750x1000,075,f.jpg"
-                alt="Instagram"
-              />
-              <br />
-              <span class="label">Instagram</span></a
-            >
+        <div class="container">
+          <div class="row d-flex justify-content-around">
+            <div class="footer col-sm-12 col-lg-4">
+              <a onclick="clickLinkedin()"
+                ><img
+                  class="d-none d-lg-inline"
+                  src="https://thumbs.dreamstime.com/b/logotipo-negro-y-blanco-redondeado-de-linkedin-con-el-fichero-del-ai-vector-f-cilmente-editable-tenga-fondo-alta-resoluci-n-155658604.jpg"
+                  alt="Linkedin"
+                /><br />
+                <span class="label">Linkedin</span></a
+              >
+            </div>
+            <div class="footer col-sm-12 col-lg-4">
+              <a onclick="clickGitHub()"
+                ><img
+                  class="d-none d-lg-inline"
+                  src="https://w7.pngwing.com/pngs/764/179/png-transparent-github-computer-icons-github-white-logo-silhouette.png"
+                  alt="GitHub"
+                /><br />
+                <span class="label">GitHub</span></a
+              >
+            </div>
+            <div class="footer col-sm-12 col-lg-4">
+              <a onclick="clickInstagram()"
+                ><img
+                  class="d-none d-lg-inline"
+                  src="https://ih1.redbubble.net/image.232042714.7145/flat,750x1000,075,f.jpg"
+                  alt="Instagram"
+                />
+                <br />
+                <span class="label">Instagram</span></a
+              >
+            </div>
           </div>
         </div>
       </footer>

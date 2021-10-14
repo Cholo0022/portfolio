@@ -18,7 +18,7 @@ body {
 .mensaje h3 {
   text-align: center;
   margin: 180px 0 0 40px;
- 
+
   font-family: "Montserrat Alternates", sans-serif;
   color: #000;
 }
@@ -36,7 +36,6 @@ body {
 .imgHobbies img {
   margin: 10px;
   width: 300px;
-  height: 200px;
 }
 
 h3,
