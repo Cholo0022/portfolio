@@ -1,3 +1,10 @@
+let linkInicioBrand = document.getElementById("linkInicioBrand");
+let inicioBrand = document.getElementById("inicio");
+
+linkInicioBrand.addEventListener("click", function () {
+  inicio.scrollIntoView();
+});
+
 let linkInicio = document.getElementById("linkInicio");
 let inicio = document.getElementById("inicio");
 
